@@ -1,189 +1,49 @@
 <!DOCTYPE html>
-<!-- Declaration- It is an HTML5 document -->
-
-<!-- language is English -->
+<!-- Declaration: This is an HTML5 document -->
 <html lang="en">
 <head>
-    <title>Module 4 Practical Project Part1 - Ada Lovelace</title>
-    
-    <!-- This tag ensures special characters display correctly -->
+    <title>Ada Lovelace - Home</title>
     <meta charset="UTF-8">
-    
-    <!-- This tag fixes the broken Wikipedia image -->
     <meta name="referrer" content="no-referrer">
-
-    <!-- This is Internal CSS. Styling the whole page. -->
-    <style>
-        
-        /* Styling the whole body of the page */
-        body {
-            background-color: #f4f9f9;
-            font-family: Arial, Helvetica, sans-serif; /* Font Family #1 */
-            margin-top: 30px;
-            margin-left: 40px;
-            margin-right: 40px;
-        }
-
-        /* Styling the main heading */
-        h1 {
-            color: #1b2a49; /* Text Color #1*/
-            font-size: 40px; /* Font Size #1 */
-            text-align: center; /* Text Alignment */
-        }
-
-        /* Styling the smaller headings */
-        h2 {
-            color: #008080; /* Text Color #2 */
-            font-family: "Times New Roman", Times, serif; /* Font Family #2 */
-            font-size: 28px; /* Font Size #2 */
-            
-            /* Creating a bottom border */
-            border-bottom: 3px solid #008080;
-            
-            margin-top: 30px;
-        }
-
-        /* Styling the table */
-        table {
-            border-width: 2px;
-            border-style: solid;
-            border-color: #1b2a49;
-            width: 100%; 
-        }
-
-        /* Styling the table cells */
-        th, td {
-            border-width: 1px;
-            border-style: solid;
-            border-color: #1b2a49;
-            padding: 10px;
-            text-align: left;
-        }
-
-        /* Styling the table caption */
-        caption {
-            font-size: 20px;
-            font-weight: bold;
-            color: #1b2a49;
-            margin-bottom: 10px;
-        }
-
-    </style>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+<body>
 
-<body id="top">
+    <!-- Navigation Menu (Internal Links) -->
+    <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="biography.html">Biography</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="timeline.html">Timeline & Facts</a>
+    </div>
 
-    <!-- INLINE STYLE #1: This div centers the top image -->
     <div style="text-align: center;">
-        
-        <!-- ABSOLUTE URL IMAGE -->
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg" alt="A painting of Ada Lovelace" width="250" height="300" referrerpolicy="no-referrer">
-        <!-- (Added referrerpolicy="no-referrer" to fix visibility) -->
+        <!-- Absolute URL Image (Large size) -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg" alt="A painting of Ada Lovelace" width="500" referrerpolicy="no-referrer">
         
         <h1>Ada Lovelace</h1>
         <p><i>The First Computer Programmer</i></p>
     </div>
 
+    <h2>An Unlikely Beginning</h2>
     
-    <!-- INLINE STYLE #2: This paragraph is an introductory summary -->
-    <p style="color: #333333; font-family: Verdana, sans-serif;">
-        Ada Lovelace (1815–1852) was a visionary English mathematician widely celebrated as the world's first computer programmer. While working with Charles Babbage on his proposed Analytical Engine, she realized that computers could do far more than just calculate numbers—they could follow complex instructions to create music and art. Her groundbreaking 1843 notes contained the first published algorithm intended for a machine, cementing her legacy as a pioneer of modern computing.
+    <!-- Inline Style #1 -->
+    <p style="color: #333333; font-family: Verdana, sans-serif; font-size: 18px;">
+        Augusta Ada King, Countess of Lovelace, was born on December 10, 1815, in London, England. She was the only legitimate child of the famous Romantic poet Lord Byron and the highly educated Anne Isabella Milbanke. Her parents had a turbulent marriage and separated just one month after Ada was born. Lord Byron left England forever shortly after and died when Ada was only eight years old, meaning she never truly knew her father.
     </p>
-    
-    <h2>Who Was She?</h2>
 
     <p>
-        Born to the famous Romantic poet Lord Byron and the highly educated Anne Isabella Milbanke, Ada was raised by a mother determined to suppress any of the poet's "unstable" imagination. Instead, she insisted that Ada be taught logic, science, and mathematics from a very young age—an unusual pursuit for women at the time. She was tutored by prominent figures, including the mathematician Augustus De Morgan and the scientific writer Mary Somerville, developing into a gifted and perceptive mathematician. In 1833, the seventeen-year-old Ada met Charles Babbage, the inventor and mechanical engineer, and they quickly became close friends and lifelong collaborators.
+        Ada's mother, Anne Isabella, was deeply afraid that Ada would inherit her father's unpredictable and "mad" poetic temperament. To counter this, her mother insisted that Ada be strictly educated in mathematics, logic, and science. This was highly unusual for young women in the 1800s, who were typically taught only enough to manage a household or entertain guests. Ada was forced to study rigorously, often being bedridden as a child but continuing her studies from her bed.
     </p>
 
-    <h2>Her Major Achievements</h2>
-    
-    <!-- This is an Ordered Lis -->
-    <ol>
-        <li>She translated a French article about the Analytical Engine into English.</li>
-        <li>She added her own notes to the article that were longer than the article itself!</li>
-        <li>She wrote the very first algorithm meant to be run by a machine.</li>
-    </ol>
-
-    <h2>Fun Facts</h2>
-    
-    <!-- This is an Unordered List -->
-    <ul> 
-        <li>Charles Babbage called her the "Enchantress of Numbers."</li>
-        <li>She predicted that computers could one day create music and art.</li>
-        <li>There is a computer language named "Ada" named after her.</li>
-    </ul>
-
-    <h2>Important Vocabulary</h2>
-    
-    <!-- This is a Description List -->
-    <dl>
-        <dt><b>Algorithm</b></dt>
-        <dd>A step-by-step set of rules to solve a problem.</dd>
-        
-        <dt><b>Analytical Engine</b></dt>
-        <dd>An early mechanical computer design by Charles Babbage.</dd>
-    </dl>
-
-    <h2>Ada's Timeline</h2>
-    
-    <table>
-        <caption>Milestones in Ada Lovelace's Life</caption>
-        <tr>
-            <th>Year</th>
-            <th>Age</th>
-            <th>What Happened</th>
-        </tr>
-        <tr>
-            <td>1815</td>
-            <td>0</td>
-            <td>Ada was born in London to Lord Byron and Anne Isabella Milbanke.</td>
-        </tr>
-        <tr>
-            <td>1833</td>
-            <td>17</td>
-            <td>She met Charles Babbage and saw a demonstration of his Difference Engine.</td>
-        </tr>
-        <tr>
-            <td>1835</td>
-            <td>19</td>
-            <td>She married William King, who was later made the Earl of Lovelace.</td>
-        </tr>
-        <tr>
-            <td>1843</td>
-            <td>27</td>
-            <td>She published her famous translated notes, including the first algorithm.</td>
-        </tr>
-        <tr>
-            <td>1852</td>
-            <td>36</td>
-            <td>Ada passed away in London, leaving behind a legacy as a computing pioneer.</td>
-        </tr>
-    </table>
-
-    <h2>Mother of Modern Computer Programming</h2>
-    
-    <!-- RELATIVE URL IMAGE -->
     <p>
-        <img src="my_image.jpg" alt="Ada Lovelace- The Mother of Modern Computer Programming" width="400">
+        Despite her mother's efforts, Ada's imagination was not suppressed. Instead, she found a way to combine her mother's love for logic with her father's creative flair. As a young woman, she was tutored by some of the greatest minds of her time, including Mary Somerville, a pioneering science writer, and Augustus De Morgan, a famous mathematician who taught her advanced calculus.
     </p>
 
-    <h2>Links</h2>
-    
-    <p>
-        <!-- INTERNAL LINK: Takes you to the top of the page -->
-        <a href="#top">Click here to go back to the top!</a>
-    </p>
-    
-    <p>
-        <!-- EXTERNAL LINK: Takes you to another website -->
-        <a href="https://en.wikipedia.org/wiki/Ada_Lovelace" target="_blank">Click here to read more on Wikipedia</a>
-    </p>
-
-    <!-- Footer Section -->
     <footer>
         <hr>
-        <p><mark>Created by Earlie Marsh for Module 4 Practical Project Part 1.</mark></p>
+        <p><mark>Created by Earlie Marsh for Module 4 Practical Project Part 2.</mark></p>
     </footer>
 
 </body>
