@@ -1,0 +1,88 @@
+/* =========================================
+   Global Website Styles
+   ========================================= */
+
+/* Styling the whole body of the page */
+body {
+    background-color: #f4f9f9; /* Background Color */
+    font-family: 'Inter', Arial, sans-serif; /* Body Font */
+    color: #333333; /* Text Color #1 */
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 1.6; /* Makes paragraphs easy to read */
+}
+
+/* Styling the main headings (Playfair Display) */
+h1 {
+    font-family: 'Playfair Display', Georgia, serif; /* Font Family #1 */
+    color: #1b2a49; /* Text Color #2 */
+    font-size: 42px; /* Font Size #1 */
+    text-align: center; /* Text Alignment */
+    margin-bottom: 10px;
+}
+
+/* Styling smaller headings (Playfair Display) */
+h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #008080; /* Text Color #3 */
+    font-size: 28px; /* Font Size #2 */
+    border-bottom: 3px solid #008080; /* Border Application */
+    margin-top: 30px;
+    padding-bottom: 5px;
+}
+
+/* Styling subheadings and timeline dates (JetBrains Mono) */
+h3, h4 {
+    font-family: 'JetBrains Mono', "Courier New", monospace; /* Font Family #2 */
+    color: #1b2a49;
+    font-size: 20px;
+}
+
+/* Navigation Menu Styling */
+.navigation {
+    text-align: center;
+    background-color: #1b2a49;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 5px; /* Adds slightly rounded corners */
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* Styling the table with simple borders */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+caption {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1b2a49;
+    margin-bottom: 10px;
+}
+
+/* A simple class for highlighting text boxes */
+.highlight-box {
+    background-color: #e0f2f1;
+    padding: 15px;
+    border-left: 6px solid #008080;
+    margin-bottom: 20px;
+}
