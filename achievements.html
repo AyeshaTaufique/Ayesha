@@ -1,56 +1,65 @@
 <!DOCTYPE html>
-<!-- Declaration: This is an HTML5 document -->
+<!-- Declaration: HTML5 document -->
 <html lang="en">
 <head>
     <title>Ada Lovelace - Achievements</title>
     <meta charset="UTF-8">
-    <meta name="referrer" content="no-referrer">
-    <!-- Link to External CSS -->
+    <!-- Google Fonts Links -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono:wght@700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navigation Menu -->
     <div class="navigation">
         <a href="index.html">Home</a>
         <a href="biography.html">Biography</a>
+        <a href="timeline.html">Timeline</a>
         <a href="achievements.html">Achievements</a>
-        <a href="timeline.html">Timeline & Facts</a>
+        <a href="facts.html">Interesting Facts</a>
     </div>
 
-    <h1>Her Major Achievements</h1>
+    <h1>Key Achievements & Contributions to Computing</h1>
 
-    <p>
-        Ada Lovelace's greatest achievement occurred in 1843. At the time, she was married and raising three children. She decided to translate an article written in French by the Italian engineer Luigi Menabrea about Babbage's Analytical Engine. Babbage suggested that she add her own notes to the translation. Ada did much more than that. Her notes ended up being nearly three times longer than the original article itself!
-    </p>
-
-    <p>
-        Within these notes, published as "Notes on the Analytical Engine," Ada laid out a detailed plan for how the machine could calculate Bernoulli numbers using a complex series of operations. This set of instructions is widely considered to be <b>the very first computer program</b>. She also made a bold prediction: she wrote that the Analytical Engine could be used to compose elaborate and scientific pieces of music.
-    </p>
-
-    <h2>Why Her Work Matters Today</h2>
-    
-    <!-- Ordered List -->
-    <ol>
-        <li><b>First Algorithm:</b> She designed the first published algorithm intended to be processed by a machine.</li>
-        <li><b>Foresight:</b> She was the first to see that computers could handle symbols and logic, not just numbers.</li>
-        <li><b>Inspiration:</b> She paved the way for modern programmers and women in STEM fields everywhere.</li>
-    </ol>
+    <h2>The 1843 Translation & "Notes"</h2>
+    <ul>
+        <li><b>Expanding on Babbage's Work.</b> When Charles Babbage asked Ada to translate Luigi Menabrea’s French paper on the Analytical Engine, he encouraged her to add her own commentary. Over nine months, Ada produced seven detailed essays labeled Notes A through G, which turned out to be three times longer and far more visionary than Menabrea’s original text.</li>
+        <li><b>Clarifying the Analytical Engine.</b> Unlike the earlier Difference Engine (which could only solve one type of math problem), the Analytical Engine was designed to use punched cards—inspired by the Jacquard textile loom—to perform any calculation. Ada’s notes explained the machine's architecture more clearly than Babbage himself ever had.</li>
+    </ul>
 
     <div style="text-align: center;">
-        <!-- Absolute URL Image (Large size) -->
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Ada_Lovelace_Chalon_portrait.jpg/600px-Ada_Lovelace_Chalon_portrait.jpg" alt="A colorful painted portrait of Ada Lovelace" width="400" referrerpolicy="no-referrer">
+        <!-- Absolute URL Image -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ada_Lovelace_Bernoulli_Numbers_Algorithm.jpg/500px-Ada_Lovelace_Bernoulli_Numbers_Algorithm.jpg" alt="Ada Lovelace's Bernoulli Numbers Algorithm Diagram" width="450" referrerpolicy="no-referrer">
+        <p><i>Ada Lovelace's diagram for calculating Bernoulli numbers (Note G).</i></p>
     </div>
 
-    <p>
-        If you want to read more about her incredible contributions to science, visit this 
-        <!-- External Link -->
-        <a href="https://en.wikipedia.org/wiki/Ada_Lovelace" target="_blank">Wikipedia page on Ada Lovelace</a>.
-    </p>
+    <h2>Note G — The First Computer Program</h2>
+    <ul>
+        <li><b>Calculating Bernoulli Numbers.</b> In Note G, Ada wrote out a complete, step-by-step table of operations instructing the Analytical Engine how to compute a complex sequence of rational numbers known as Bernoulli numbers.</li>
+        <li><b>Modern Programming Concepts.</b> Her algorithm went far beyond simple arithmetic; it explicitly utilized foundational programming structures that coders still use today.</li>
+    </ul>
+
+    <!-- Description List -->
+    <h3>Core Programming Concepts in Note G</h3>
+    <dl>
+        <dt><b>Variables</b></dt>
+        <dd>Tracking changing values in specific columns of the machine.</dd>
+        
+        <dt><b>Loops</b></dt>
+        <dd>Repeating sequences of instructions to save time and space.</dd>
+
+        <dt><b>Conditional Branching</b></dt>
+        <dd>Allowing the machine to make decisions based on the result of a previous calculation.</dd>
+    </dl>
+
+    <h2>Conceptualizing Modern Software & Multimedia</h2>
+    <div class="highlight-box">
+        <p><b>Beyond Number Crunching.</b> Ada recognized a critical leap that even Babbage missed: numbers could represent things other than quantities. She wrote that if the machine understood the fundamental rules of harmony and composition, <i>"the Engine might compose elaborate and scientific pieces of music of any degree of complexity or extent."</i></p>
+        <p><b>Separating Hardware from Software.</b> She drew a clear conceptual boundary between the physical gears and punch cards of the machine (hardware) and the abstract mathematical instructions fed into it (software).</p>
+    </div>
 
     <footer>
         <hr>
-        <p><mark>Created by Earlie Marsh for Module 4 Practical Project Part 2.</mark></p>
+        <p style="text-align: center; color: #666666;"><mark>Created by Earlie Marsh for Module 4 Practical Project Part 2.</mark></p>
     </footer>
 
 </body>
