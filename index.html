@@ -2,25 +2,21 @@
 <!-- Declaration: HTML5 document -->
 <html lang="en">
 <head>
-    <title>Earlie Marsh - Final Portfolio</title>
+    <title>Earlie Marsh - Home & Reflections</title>
     <meta charset="UTF-8">
-    <!-- Link to External CSS -->
+    <!-- External CSS Links (Google Fonts) -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono:wght@700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <!-- External CSS File Link -->
     <link rel="stylesheet" href="style.css">
     
-    <!-- Internal CSS (Requirement) -->
+    <!-- Internal CSS -->
     <style>
-        .favorite-box {
-            background-color: #d4edda; /* Light green */
-            border-left: 5px solid #28a745;
-            padding: 15px;
-            margin-bottom: 20px;
-        }
-        .least-favorite-box {
-            background-color: #f8d7da; /* Light red */
-            border-left: 5px solid #dc3545;
-            padding: 15px;
-            margin-bottom: 20px;
+        .intro-text {
+            font-size: 18px;
+            text-align: center;
+            color: #555;
+            font-style: italic;
+            margin-bottom: 30px;
         }
     </style>
 </head>
@@ -29,80 +25,91 @@
     <!-- Navigation Bar -->
     <div class="nav-bar">
         <a href="index.html">Home & Reflections</a>
-        <a href="coursework.html">Coursework & Modules</a>
+        <a href="coursework.html">Coursework Journey</a>
         <a href="planning.html">Project Planning</a>
-        <a href="#contact-section">Jump to Contact Form</a> <!-- Target Link (Same Page) -->
+        <a href="#contact-section">Jump to Contact Form</a> <!-- Target Link -->
     </div>
 
     <div class="container">
         <!-- Different size headings -->
-        <h1 id="top">Course Journey Portfolio: Final Reflection</h1>
+        <h1 id="top">Course Journey Portfolio</h1>
         
-        <!-- Inline Style (Requirement) -->
-        <p style="text-align: center; font-size: 18px; font-style: italic; color: #555;">
-            Welcome to my final portfolio. This website showcases my journey through Modules 1-4, highlighting my favorite concepts, new skills, and my comprehensive project planning.
-        </p>
+        <p class="intro-text">Welcome to my final portfolio for the Internet Course. This website serves as a comprehensive showcase of my learning journey through Modules 1-4, highlighting my favorite concepts, new technical skills, and my project planning process.</p>
 
-        <hr> <!-- Horizontal Rule (Requirement) -->
+        <hr> <!-- Horizontal Rule -->
 
-        <h2>My Favorite Topic in the Course</h2>
+        <h2>My Favorite Topic</h2>
         <div class="favorite-box">
             <h3>Module 3: Emerging Technologies & NFC</h3>
             <p>
-                My absolute favorite topic was learning about <b>Near Field Communication (NFC)</b> and emerging tech frontiers. I found it fascinating to learn how NFC tags operate on a restricted, short-range wireless frequency of 4 inches or less, and how they draw operational energy directly from the scanning device using <i>magnetic induction</i>. It completely changed how I view "tap-and-pay" transactions and modern digital security.
+                My absolute favorite topic in this course was learning about <b>Near Field Communication (NFC)</b> and emerging tech frontiers. I found it fascinating to learn how NFC tags operate on a restricted, short-range wireless frequency requiring close proximity—typically 4 inches or less. It is incredible that these tags utilize cheap, small, unpowered microchips that draw operational energy directly from the scanning device using <i>magnetic induction</i>. When a user brings their smartphone near an NFC tag, the smartphone's magnetic field powers up the chip, instantly transferring information. It completely changed how I view modern secure "tap-and-pay" transactions.
             </p>
         </div>
 
-        <h2>My Least Favorite Topic in the Course</h2>
+        <h2>My Least Favorite Topic</h2>
         <div class="least-favorite-box">
             <h3>Module 2: File Transfer Protocol (FTP)</h3>
             <p>
-                While I understand its importance for web administration, I found the deep dive into FTP mechanics to be a bit dry. Memorizing the exact sequence of authentication, navigation, and transfer interchange using clients like FileZilla felt tedious compared to the exciting, futuristic concepts in Module 3. 
+                While I understand its absolute importance for web administration and software development, I found the deep dive into FTP mechanics to be a bit dry. Memorizing the strict sequence of authentication, navigation, and transfer interchange using specific clients like FileZilla and WinSCP felt tedious compared to the exciting, futuristic concepts in Module 3. 
             </p>
         </div>
 
         <h2>Three New Things I Learned</h2>
-        <!-- Ordered List (Requirement) -->
+        <!-- Ordered List -->
         <ol>
-            <li><b>How DNS Translates the Web:</b> I learned that the Domain Name System acts as a decentralized directory, translating human-readable URLs (like .com or .edu) into machine-readable IP addresses.</li>
-            <li><b>The Physics of NFC:</b> I learned how smartphones use magnetic fields to power unpowered microchips in NFC tags, allowing for seamless data transfer.</li>
-            <li><b>Advanced Search Operators:</b> I mastered how to use search engines beyond basic phrasing, learning to use metadata and query operators to find primary source documents on portals like GovInfo.</li>
+            <li><b>How DNS Translates the Web:</b> I learned that the Domain Name System acts as a decentralized global directory, translating human-readable Uniform Resource Locators (URLs) directly into machine-readable IP addresses.</li>
+            <li><b>The Physics of NFC Technology:</b> I learned exactly how smartphones use magnetic fields to power unpowered microchips in NFC tags, allowing for friction-free data transfer without requiring camera focus like QR codes.</li>
+            <li><b>Advanced Search Strategies:</b> I mastered how to use advanced search query operators and metadata field operators via the GovInfo portal to bypass shallow blogs and isolate primary source documents.</li>
         </ol>
 
-        <h2>Multimedia: Understanding the Cloud</h2>
-        <p>One of the most helpful videos I used to understand cloud infrastructure was this one:</p>
+        <hr>
+
+        <h2>Multimedia Content: The Cloud</h2>
+        <p>One of the most helpful videos I used to understand remote infrastructure was this one on Cloud Computing:</p>
         <!-- Multimedia / Frame (Requirement) -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/M988_fsOSWo" title="Understanding the Cloud" frameborder="0" allowfullscreen></iframe>
+        <div style="text-align: center;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/M988_fsOSWo" title="Understanding the Cloud" frameborder="0" allowfullscreen></iframe>
+        </div>
 
         <hr>
 
         <h2 id="contact-section">Contact Me</h2>
+        <p style="text-align: center;">Have any questions about my portfolio? Send me a message below!</p> <!-- Inline Style -->
+        
         <!-- Form (Requirement) -->
         <div class="contact-form">
             <form action="#" method="POST">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required placeholder="Enter your name"><br>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Jane Doe">
                 
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required placeholder="Enter your email"><br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="jane@example.com">
                 
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" required placeholder="Leave a comment!"></textarea><br>
+                <label for="topic">Topic of Interest:</label>
+                <select id="topic" name="topic">
+                    <option value="modules1-3">Modules 1-3 Coursework</option>
+                    <option value="module4">Module 4 HTML/CSS</option>
+                    <option value="general">General Feedback</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea>
                 
                 <button type="submit">Send Message</button>
             </form>
         </div>
 
-        <p style="text-align: center; margin-top: 20px;">
-            <!-- Email Link with Subject Line (Requirement) -->
-            Or email me directly: <a href="mailto:earlie.marsh@example.com?subject=Final%20Portfolio%20Feedback">earlie.marsh@example.com</a>
+        <p style="text-align: center; margin-top: 30px;">
+            <!-- Email Link with Subject Line -->
+            Or email me directly at: <a href="mailto:emarsh@stu.ctcd.edu?subject=Final%20Portfolio%20Inquiry">emarsh@stu.ctcd.edu</a>
         </p>
 
-        <p style="text-align: center;">
-            <a href="#top">Back to Top</a> <!-- Target Link (Same Page) -->
+        <p style="text-align: center; margin-top: 20px;">
+            <a href="#top">Back to Top</a> <!-- Target Link -->
         </p>
     </div>
 
+    <!-- Footer -->
     <footer>
         <p>Created by Earlie Marsh for the Final Practical Assessment.</p>
         <p><a href="https://sites.google.com/view/earliemarsh-module1-3portfolio" target="_blank">View my original Google Sites Portfolio</a></p>
