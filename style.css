@@ -1,85 +1,136 @@
-
-/* Styling the whole body of the page */
+/* =========================================
+   Global Styles - Earlie Marsh Final Portfolio
+   ========================================= */
 body {
-    background-color: #f4f9f9; /* Background Color */
-    font-family: 'Inter', Arial, sans-serif; /* Body Font */
-    color: #333333; /* Text Color #1 */
-    margin-top: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
-    line-height: 1.6; 
+    background-color: #f4f9f9; /* Background color */
+    font-family: 'Inter', Arial, sans-serif; /* Body font */
+    color: #333333; /* Text color */
+    margin: 0; /* Remove default margin to allow full-width nav */
+    line-height: 1.6;
 }
 
-/* Styling the main headings  */
+/* Page wrapper to keep content away from edges */
+.container {
+    margin: 20px 40px;
+}
+
+/* Typography */
 h1 {
-    font-family: 'Playfair Display', Georgia, serif; /* Font Family #1 */
-    color: #1b2a49; /* Text Color #2 */
-    font-size: 42px; /* Font Size #1 */
-    text-align: center; /* Text Alignment */
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #1b2a49;
+    font-size: 42px;
+    text-align: center;
     margin-bottom: 10px;
+    border-bottom: 3px solid #008080;
+    padding-bottom: 10px;
 }
 
-/* Styling smaller headings */
 h2 {
     font-family: 'Playfair Display', Georgia, serif;
-    color: #008080; /* Text Color #3 */
-    font-size: 28px; /* Font Size #2 */
-    border-bottom: 3px solid #008080; /* Border Application */
+    color: #008080;
+    font-size: 28px;
     margin-top: 30px;
-    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
 }
 
-/* Styling subheadings and timeline dates */
-h3, h4 {
-    font-family: 'JetBrains Mono', "Courier New", monospace; /* Font Family #2 */
+h3 {
+    font-family: 'JetBrains Mono', "Courier New", monospace;
     color: #1b2a49;
     font-size: 20px;
 }
 
-/* Navigation Menu Styling */
-.navigation {
-    text-align: center;
+/* Navigation Bar */
+.nav-bar {
     background-color: #1b2a49;
     padding: 15px;
-    margin-bottom: 30px;
-    border-radius: 5px; /* Adds rounded corners */
+    text-align: center;
 }
 
-.navigation a {
-    color: white;
+.nav-bar a {
+    color: #ffffff;
     text-decoration: none;
     font-family: 'JetBrains Mono', monospace;
     font-size: 16px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 0 15px;
+    font-weight: bold;
 }
 
-/* Styling the table */
+.nav-bar a:hover {
+    color: #00e6e6; /* Hover effect for accessibility */
+}
+
+/* Tables */
 table {
-    border: 1px solid black;
-    border-collapse: collapse;
     width: 100%;
     margin-bottom: 30px;
+    border-collapse: collapse;
 }
 
-th, td {
-    border: 1px solid black;
+/* Table with borders */
+.bordered-table, .bordered-table th, .bordered-table td {
+    border: 2px solid #1b2a49;
     padding: 10px;
-    text-align: left;
 }
 
-caption {
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    font-weight: bold;
+.bordered-table th {
+    background-color: #e0f2f1;
     color: #1b2a49;
-    margin-bottom: 10px;
 }
 
-/* class for highlighting text boxes */
+/* Table without borders */
+.no-border-table {
+    border: none;
+}
+
+.no-border-table td {
+    border: none;
+    padding: 10px;
+}
+
+/* Forms */
+.contact-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #008080;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    font-family: 'Inter', sans-serif;
+}
+
+.contact-form button {
+    background-color: #008080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Highlight Box */
 .highlight-box {
     background-color: #e0f2f1;
     padding: 15px;
     border-left: 6px solid #008080;
     margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #1b2a49;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #00e6e6;
 }
