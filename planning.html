@@ -6,49 +6,67 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono:wght@700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
+    <!-- Internal CSS -->
+    <style>
+        .planning-step {
+            background-color: #f4f9f9;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
 
     <div class="nav-bar">
         <a href="index.html">Home & Reflections</a>
-        <a href="coursework.html">Coursework & Modules</a>
+        <a href="coursework.html">Coursework Journey</a>
         <a href="planning.html">Project Planning</a>
     </div>
 
     <div class="container">
         <h1 id="top">Project Planning & Analysis Phase</h1>
 
-        <p>Before writing a single line of code, I completed a comprehensive planning and analysis phase for this final portfolio website. Here is the documentation of my design process.</p>
+        <p class="intro-text">Before writing a single line of code, I completed a comprehensive planning and analysis phase for this final portfolio website. Here is the documentation of my design process.</p>
 
         <hr>
 
         <h2>1. Site Map & Structure</h2>
-        <p>I planned a 3-page structure to ensure all coursework and reflections were thoroughly covered:</p>
-        <!-- Unordered List (Requirement) -->
-        <ul>
-            <li><b>index.html (Home):</b> Welcome message, favorites/least favorites, 3 new things learned, and contact form.</li>
-            <li><b>coursework.html:</b> Deep dives into Modules 1-3, including the interactive image map and tables.</li>
-            <li><b>planning.html:</b> This page, detailing the project analysis.</li>
-        </ul>
+        <div class="planning-step">
+            <p>I planned a 3-page structure to ensure all coursework and reflections were thoroughly covered without overwhelming the user:</p>
+            <!-- Unordered List -->
+            <ul>
+                <li><b>index.html (Home):</b> Welcome message, detailed favorite/least favorite topics, 3 new things learned, contact form, and multimedia.</li>
+                <li><b>coursework.html:</b> Deep dives into Modules 1-3, including the interactive image map and tables.</li>
+                <li><b>planning.html:</b> This page, detailing the project analysis.</li>
+            </ul>
+        </div>
 
         <h2>2. Target Audience & Goals</h2>
-        <p>The primary audience for this website is my professor and classmates. The goal is to present my coursework clearly and demonstrate my proficiency in HTML and CSS.</p>
+        <div class="planning-step">
+            <p>The primary audience for this website is my professor and classmates. The goal is to present my coursework clearly and demonstrate my proficiency in hand-coding HTML and CSS in a basic text editor.</p>
+        </div>
 
         <h2>3. ADA Compliance & Design Choices</h2>
-        <p>To ensure the site is accessible to everyone (ADA compliance), I implemented the following:</p>
-        <!-- Ordered List (Requirement) -->
-        <ol>
-            <li><b>Alt Text:</b> Every image includes descriptive <code>alt</code> text.</li>
-            <li><b>Color Contrast:</b> I used a dark navy (#1b2a49) and teal (#008080) against a light off-white background (#f4f9f9) to ensure readability.</li>
-            <li><b>Font Choices:</b> I used 'Inter' for body text as it is a highly readable sans-serif font, and 'Playfair Display' for headings to give it a classic, academic feel.</li>
-        </ol>
+        <div class="planning-step">
+            <p>To ensure the site is accessible to everyone (ADA compliance), I implemented the following:</p>
+            <!-- Ordered List -->
+            <ol>
+                <li><b>Alt Text:</b> Every image includes descriptive <code>alt</code> text.</li>
+                <li><b>Color Contrast:</b> I used a dark navy (#1b2a49) and teal (#008080) against a light off-white background (#f4f9f9) to ensure readability.</li>
+                <li><b>Font Choices:</b> I used 'Inter' for body text as it is a highly readable sans-serif font, and 'Playfair Display' for headings to give it a classic, academic feel.</li>
+                <li><b>Semantic HTML:</b> Used standard tags like `<nav>`, `<footer>`, and `<h1>` through `<h4>` to provide structure for screen readers.</li>
+            </ol>
+        </div>
 
         <h2>4. Project Wireframe / Layout Plan</h2>
-        <div class="highlight-box">
-            <p><b>Header:</b> Large H1 title.</p>
-            <p><b>Navigation:</b> Fixed dark bar at the top with links.</p>
-            <p><b>Main Content:</b> Divided into H2 sections with lists and tables.</p>
-            <p><b>Footer:</b> Contact information and copyright.</p>
+        <div class="planning-step">
+            <p><b>Header:</b> Large H1 title centered on the page.</p>
+            <p><b>Navigation:</b> Fixed dark bar at the top with links (sticky positioning).</p>
+            <p><b>Main Content:</b> Divided into H2 sections with padding and margin to prevent clutter.</p>
+            <p><b>Footer:</b> Contact information, copyright, and external links.</p>
         </div>
 
         <p style="text-align: center; margin-top: 20px;">
@@ -58,7 +76,7 @@
 
     <footer>
         <p>Created by Earlie Marsh for the Final Practical Assessment.</p>
-        <p><a href="mailto:earlie.marsh@example.com?subject=Planning%20Phase%20Feedback">Email Me</a></p>
+        <p><a href="mailto:emarsh@stu.ctcd.edu?subject=Planning%20Phase%20Feedback">Email Me</a></p>
     </footer>
 
 </body>
