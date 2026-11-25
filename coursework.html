@@ -2,32 +2,47 @@
 <!-- Declaration: HTML5 document -->
 <html lang="en">
 <head>
-    <title>Earlie Marsh - Coursework</title>
+    <title>Earlie Marsh - Coursework Journey</title>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono:wght@700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
+    <!-- Internal CSS -->
+    <style>
+        .map-instruction {
+            text-align: center;
+            font-weight: bold;
+            color: #008080;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
 
     <div class="nav-bar">
         <a href="index.html">Home & Reflections</a>
-        <a href="coursework.html">Coursework & Modules</a>
+        <a href="coursework.html">Coursework Journey</a>
         <a href="planning.html">Project Planning</a>
     </div>
 
     <div class="container">
         <h1 id="top">Coursework & Module Highlights</h1>
+        <p class="intro-text">An in-depth look at the technical concepts I mastered throughout Modules 1-4.</p>
+
+        <hr>
 
         <!-- Image Map (Requirement) -->
         <h2>Interactive Module Map</h2>
-        <p>Click on different parts of the network image below to jump to my coursework summaries!</p>
+        <p class="map-instruction">Click on different parts of the global network image below to jump to my module summaries!</p>
         <div style="text-align: center;">
-            <!-- Note: Using a placeholder image that visually represents networks -->
-            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop" alt="Global Network Image Map" usemap="#networkmap" width="600" style="border: 3px solid #008080;">
+            <!-- Inline Style on image border -->
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop" alt="Global Network Infrastructure" usemap="#networkmap" width="600" style="border: 4px solid #008080; border-radius: 8px;">
+            
+            <!-- Map coordinates -->
             <map name="networkmap">
-                <area shape="rect" coords="0,0,200,300" href="#module1" alt="Module 1 Section">
-                <area shape="rect" coords="200,0,400,300" href="#module2" alt="Module 2 Section">
-                <area shape="rect" coords="400,0,600,300" href="#module3" alt="Module 3 Section">
+                <area shape="rect" coords="0,0,200,400" href="#module1" alt="Module 1: Internet Fundamentals">
+                <area shape="rect" coords="200,0,400,400" href="#module2" alt="Module 2: Cloud and FTP">
+                <area shape="rect" coords="400,0,600,400" href="#module3" alt="Module 3: Emerging Tech">
             </map>
         </div>
 
@@ -35,45 +50,49 @@
 
         <!-- Module 1 -->
         <h2 id="module1">Module 1: Internet Fundamentals</h2>
-        <p>In this module, I explored the physical architecture (fiber optics, coaxial cables) and logical architecture (IP addresses, DNS) of the internet.</p>
-        <p>I mastered advanced search retrieval strategies using portals like <a href="https://www.govinfo.gov/" target="_blank">GovInfo</a> and learned how automated spiders build database indexes.</p>
-        
-        <!-- Unordered List (Requirement) -->
+        <p>This module challenged me to deconstruct the internet down to its physical and logical roots. I analyzed everything from the military origins of decentralized networking to the hardware pipelines that deliver data to consumer devices.</p>
+        <h3>Core Concepts Learned:</h3>
+        <!-- Unordered List -->
         <ul>
-            <li>ARPANET History</li>
-            <li>IPv4 vs. IPv6 Addressing</li>
-            <li>Browser Translation Pipelines</li>
+            <li><b>Network Infrastructure:</b> Analyzing the technical differences between 32-bit IPv4 addressing and the modern 128-bit IPv6 framework.</li>
+            <li><b>Digital Access:</b> Differentiating physical components (fiber optics, coaxial cables) from the application software layer (World Wide Web).</li>
+            <li><b>Information Retrieval:</b> Unpacking how automated spiders build database indexes and how page rank algorithms guess relevancy.</li>
         </ul>
 
         <!-- Module 2 -->
         <h2 id="module2">Module 2: Email, Cloud & File Transfer</h2>
-        <p>This module focused on cloud computing and data transfer. I compared web-based file sharing with FTP protocols.</p>
+        <p>I examined the realities of cloud infrastructure, tracking how remote server storage networks eliminate local hardware dependencies, and compared consumer-grade file sharing with network-level operations.</p>
         
-        <!-- Table WITHOUT Borders (Requirement) -->
         <h3>The FTP Workflow</h3>
+        <p>For advanced web administration, professionals use File Transfer Protocol (FTP). Here is the clear sequence of an FTP operation:</p>
+        <!-- Table WITHOUT Borders (Requirement) -->
         <table class="no-border-table">
             <tr>
-                <td><b>Step 1:</b></td>
-                <td>Authentication (Login credentials)</td>
+                <td><b>Step 1: Authentication</b></td>
+                <td>The user launches the FTP Client, inputs the server's host address, and enters secure login credentials to establish a direct connection.</td>
             </tr>
             <tr>
-                <td><b>Step 2:</b></td>
-                <td>Navigation (Local vs. Remote directory)</td>
+                <td><b>Step 2: Navigation</b></td>
+                <td>The client splits the screen, showing the local file directory on one side and the remote server's file layout on the other.</td>
             </tr>
             <tr>
-                <td><b>Step 3:</b></td>
-                <td>Transfer Interchange (Upload/Download)</td>
+                <td><b>Step 3: Transfer Interchange</b></td>
+                <td>The user selects files and initiates an upload or download request. The client and server manage the data exchange.</td>
+            </tr>
+            <tr>
+                <td><b>Step 4: Termination</b></td>
+                <td>Once the transfer is complete, the user securely logs out of the server connection.</td>
             </tr>
         </table>
 
         <!-- Module 3 -->
         <h2 id="module3">Module 3: Social Media & Emerging Tech</h2>
-        <p>We categorized social media into forums, blogs, and wikis. I found the collaborative shift of wikis particularly interesting because they allow anyone to create or modify content.</p>
+        <p>We categorized social media into distinct domains and investigated the technological trends shaping our future society, including machine learning, facial recognition, and virtual reality.</p>
         
         <!-- Table WITH Borders and Caption (Requirement) -->
         <h3>Social Media Typologies</h3>
         <table class="bordered-table">
-            <caption>Types of Social Media Platforms</caption>
+            <caption>Six Primary Types of Social Media Platforms</caption>
             <tr>
                 <th>Platform Type</th>
                 <th>Examples</th>
@@ -90,6 +109,11 @@
                 <td>Author-centric publication</td>
             </tr>
             <tr>
+                <td>Forums</td>
+                <td>Quora, StackExchange</td>
+                <td>Chronological public discussions</td>
+            </tr>
+            <tr>
                 <td>Wikis</td>
                 <td>Wikipedia, WikiHow</td>
                 <td>Crowd-sourced knowledge</td>
@@ -100,8 +124,10 @@
         <p>This final module taught me how to hand-code websites using Notepad and W3Schools tutorials. I learned about HTML tags, CSS styling, and ADA compliance.</p>
         
         <!-- Multimedia / Frame (Requirement) -->
-        <p>Here is a great video explaining the basics of HTML:</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/UB1O30fR-EE" title="HTML Tutorial" frameborder="0" allowfullscreen></iframe>
+        <p>Here is a great video explaining the basics of HTML that I used for this module:</p>
+        <div style="text-align: center;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UB1O30fR-EE" title="HTML Tutorial" frameborder="0" allowfullscreen></iframe>
+        </div>
 
         <p style="text-align: center; margin-top: 20px;">
             <a href="#top">Back to Top</a>
@@ -110,7 +136,7 @@
 
     <footer>
         <p>Created by Earlie Marsh for the Final Practical Assessment.</p>
-        <p><a href="mailto:earlie.marsh@example.com?subject=Coursework%20Question">Email Me</a></p>
+        <p><a href="mailto:emarsh@stu.ctcd.edu?subject=Question%20about%20Coursework">Email Me</a></p>
     </footer>
 
 </body>
