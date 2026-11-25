@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- Declaration: HTML5 document -->
+<html lang="en">
+<head>
+    <title>Earlie Marsh - Coursework</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono:wght@700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="nav-bar">
+        <a href="index.html">Home & Reflections</a>
+        <a href="coursework.html">Coursework & Modules</a>
+        <a href="planning.html">Project Planning</a>
+    </div>
+
+    <div class="container">
+        <h1 id="top">Coursework & Module Highlights</h1>
+
+        <!-- Image Map (Requirement) -->
+        <h2>Interactive Module Map</h2>
+        <p>Click on different parts of the network image below to jump to my coursework summaries!</p>
+        <div style="text-align: center;">
+            <!-- Note: Using a placeholder image that visually represents networks -->
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop" alt="Global Network Image Map" usemap="#networkmap" width="600" style="border: 3px solid #008080;">
+            <map name="networkmap">
+                <area shape="rect" coords="0,0,200,300" href="#module1" alt="Module 1 Section">
+                <area shape="rect" coords="200,0,400,300" href="#module2" alt="Module 2 Section">
+                <area shape="rect" coords="400,0,600,300" href="#module3" alt="Module 3 Section">
+            </map>
+        </div>
+
+        <hr>
+
+        <!-- Module 1 -->
+        <h2 id="module1">Module 1: Internet Fundamentals</h2>
+        <p>In this module, I explored the physical architecture (fiber optics, coaxial cables) and logical architecture (IP addresses, DNS) of the internet.</p>
+        <p>I mastered advanced search retrieval strategies using portals like <a href="https://www.govinfo.gov/" target="_blank">GovInfo</a> and learned how automated spiders build database indexes.</p>
+        
+        <!-- Unordered List (Requirement) -->
+        <ul>
+            <li>ARPANET History</li>
+            <li>IPv4 vs. IPv6 Addressing</li>
+            <li>Browser Translation Pipelines</li>
+        </ul>
+
+        <!-- Module 2 -->
+        <h2 id="module2">Module 2: Email, Cloud & File Transfer</h2>
+        <p>This module focused on cloud computing and data transfer. I compared web-based file sharing with FTP protocols.</p>
+        
+        <!-- Table WITHOUT Borders (Requirement) -->
+        <h3>The FTP Workflow</h3>
+        <table class="no-border-table">
+            <tr>
+                <td><b>Step 1:</b></td>
+                <td>Authentication (Login credentials)</td>
+            </tr>
+            <tr>
+                <td><b>Step 2:</b></td>
+                <td>Navigation (Local vs. Remote directory)</td>
+            </tr>
+            <tr>
+                <td><b>Step 3:</b></td>
+                <td>Transfer Interchange (Upload/Download)</td>
+            </tr>
+        </table>
+
+        <!-- Module 3 -->
+        <h2 id="module3">Module 3: Social Media & Emerging Tech</h2>
+        <p>We categorized social media into forums, blogs, and wikis. I found the collaborative shift of wikis particularly interesting because they allow anyone to create or modify content.</p>
+        
+        <!-- Table WITH Borders and Caption (Requirement) -->
+        <h3>Social Media Typologies</h3>
+        <table class="bordered-table">
+            <caption>Types of Social Media Platforms</caption>
+            <tr>
+                <th>Platform Type</th>
+                <th>Examples</th>
+                <th>Primary Function</th>
+            </tr>
+            <tr>
+                <td>Content Communities</td>
+                <td>YouTube, Pinterest</td>
+                <td>Hosting and sharing rich media</td>
+            </tr>
+            <tr>
+                <td>Blogs</td>
+                <td>WordPress, Blogger</td>
+                <td>Author-centric publication</td>
+            </tr>
+            <tr>
+                <td>Wikis</td>
+                <td>Wikipedia, WikiHow</td>
+                <td>Crowd-sourced knowledge</td>
+            </tr>
+        </table>
+
+        <h2>Module 4: HTML & CSS Implementation</h2>
+        <p>This final module taught me how to hand-code websites using Notepad and W3Schools tutorials. I learned about HTML tags, CSS styling, and ADA compliance.</p>
+        
+        <!-- Multimedia / Frame (Requirement) -->
+        <p>Here is a great video explaining the basics of HTML:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UB1O30fR-EE" title="HTML Tutorial" frameborder="0" allowfullscreen></iframe>
+
+        <p style="text-align: center; margin-top: 20px;">
+            <a href="#top">Back to Top</a>
+        </p>
+    </div>
+
+    <footer>
+        <p>Created by Earlie Marsh for the Final Practical Assessment.</p>
+        <p><a href="mailto:earlie.marsh@example.com?subject=Coursework%20Question">Email Me</a></p>
+    </footer>
+
+</body>
+</html>
