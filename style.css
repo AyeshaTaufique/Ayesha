@@ -159,3 +159,15 @@ footer {
 footer a {
     color: #00e6e6;
 }
+/* Simple image styling for the modules */
+.module-img {
+    border: 2px solid #008080;
+    max-width: 100%; /* Ensures the image doesn't overflow the screen */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.img-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
