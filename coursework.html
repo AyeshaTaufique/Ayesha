@@ -19,6 +19,7 @@
 </head>
 <body>
 
+    <!-- Navigation Bar -->
     <div class="nav-bar">
         <a href="index.html">Home & Reflections</a>
         <a href="coursework.html">Coursework Journey</a>
@@ -36,11 +37,9 @@
         <p style="text-align: center; font-weight: bold; color: #008080;">Click a module to jump to it.</p>
         
         <div style="text-align: center;">
-            <!-- The image. usemap="#modules" connects it to the map below. -->
-            <!-- Make sure you save your image as course-map.jpg in the same folder! -->
-            <img src="image_4.jpg" width="800" height="240" alt="Course map: Modules 1 to 4" usemap="#modules">
+            <!-- Save your image as course-map.jpg in the same folder! -->
+            <img src="course-map.jpg" width="800" height="240" alt="Course map: Modules 1 to 4" usemap="#modules">
 
-            <!-- The map. Each <area> is a clickable box: coords = left, top, right, bottom -->
             <map name="modules">
                 <area shape="rect" coords="20,100,195,220"  href="#module1" alt="Module 1">
                 <area shape="rect" coords="215,100,390,220" href="#module2" alt="Module 2">
@@ -51,22 +50,51 @@
 
         <hr>
 
-        <!-- Module 1 -->
+        <!-- ========================================== -->
+        <!-- MODULE 1 -->
+        <!-- ========================================== -->
         <h2 id="module1">Module 1: Internet Fundamentals</h2>
-        <p>This module challenged me to deconstruct the internet down to its physical and logical roots. I analyzed everything from the military origins of decentralized networking to the hardware pipelines that deliver data to consumer devices.</p>
-        <h3>Core Concepts Learned:</h3>
-        <ul>
-            <li><b>Network Infrastructure:</b> Analyzing the technical differences between 32-bit IPv4 addressing and the modern 128-bit IPv6 framework.</li>
-            <li><b>Digital Access:</b> Differentiating physical components (fiber optics, coaxial cables) from the application software layer (World Wide Web).</li>
-            <li><b>Information Retrieval:</b> Unpacking how automated spiders build database indexes and how page rank algorithms guess relevancy.</li>
-        </ul>
-
-        <!-- Module 2 -->
-        <h2 id="module2">Module 2: Email, Cloud & File Transfer</h2>
-        <p>I examined the realities of cloud infrastructure, tracking how remote server storage networks eliminate local hardware dependencies, and compared consumer-grade file sharing with network-level operations.</p>
+        <p>Welcome to the foundational segment of my portfolio journey. Module 1 serves as a deep dive into the core architecture, evolution, and operational frameworks that power modern digital communication. Rather than treating the internet as an invisible utility, this module challenged me to deconstruct the internet down to its physical and logical roots. Over the course of this module, I systematically analyzed everything from the military origins of decentralized networking to the hardware pipelines that deliver data to consumer devices.</p>
         
+        <h3>The academic scope of this module was structured around three core pillars:</h3>
+        <!-- Unordered List -->
+        <ul>
+            <li><b>Network Infrastructure & Protocols:</b> Studying how the Advanced Research Projects Agency Network (ARPANET) transitioned from a crisis-resilient military project into the public civilian internet by 1995. This includes analyzing the technical differences between 32-bit IPv4 addressing and the modern 128-bit IPv6 framework, alongside the translation mechanics of the Domain Name System (DNS).</li>
+            <li><b>Digital Access & Application Mechanics:</b> Differentiating the physical components of the internet (fiber optics, coaxial cables, modems) from the application software layer known as the World Wide Web. I mapped out exactly how web browsers request, interpret, and compile remote server code into visual pages.</li>
+            <li><b>Advanced Information Retrieval:</b> Unpacking the algorithmic backend of search engines. I learned how automated spiders perpetually build a database index, and how algorithms use page ranking to guess relevancy. Moving past basic phrasing, I mastered advanced search query operators via the <a href="https://www.govinfo.gov/" target="_blank">GovInfo portal</a> and developed proactive strategies to optimize research workflow efficiency.</li>
+        </ul>
+        <p>By mastering these digital frameworks, I have built the crucial computer literacy skills required to navigate, troubleshoot, and optimize web environments. The following subpages act as an extensive, interactive archive of my technical notes, external research applications, and collaborative peer interactions throughout this module.</p>
+
+        <h3>Module 1 Artifacts & Collaboration</h3>
+        <!-- 3 Images per module -->
+        <div class="img-container">
+            <img src="image_5.jpg" alt="Module 1 Overview infographic covering Network Infrastructure & Protocols, Digital Access & App Mechanics, and Advanced Information Retrieval." class="module-img" width="300">
+            <p><i>Module 1 Overview: Foundations of Global Digital Infrastructure — Network Protocols, Web Access & Search Retrieval.</i></p>
+            
+            <img src="module1_quiz.jpg" alt="Screenshot of Module 1 Quiz Results" class="module-img" width="300">
+            <p><i>My results from the Module 1 Assessment Quiz.</i></p>
+            
+            <img src="module1_discussion.jpg" alt="Screenshot of Module 1 Discussion Forum" class="module-img" width="300">
+            <p><i>Screenshot of my peer mentorship in the Module 1 Discussion Forum.</i></p>
+        </div>
+
+        <hr>
+
+        <!-- ========================================== -->
+        <!-- MODULE 2 -->
+        <!-- ========================================== -->
+        <h2 id="module2">Module 2: Email, Cloud & File Transfer</h2>
+        <p>Welcome to the second major segment of my learning portfolio. Module 2 focuses on the transition from standalone desktop computing to networked, cloud-driven environments. During this module, I analyzed the systems that facilitate instant global collaboration, business transactions, and secure data migration. Rather than looking at email and cloud storage as basic consumer utilities, this module challenged me to investigate their underlying formats, organizational structures, and communications protocols.</p>
+
+        <h3>The academic scope of this module covers three primary areas:</h3>
+        <ul>
+            <li><b>Enterprise and Webmail Infrastructure:</b> Breaking down standard email formats and analyzing the clear division between free web-based services and hosted enterprise systems utilizing specialized domain suffixes (such as .gov, .edu, .mil, and .org). I also studied how to write professional business emails and the principles of being a good digital citizen.</li>
+            <li><b>Cloud Computing Paradigms:</b> Examining the realities of cloud infrastructure, tracking how remote server storage networks (like Google Drive, OneDrive, and Dropbox) eliminate local hardware dependencies. This includes investigating real-time collaborative document streaming and online productivity suites.</li>
+            <li><b>Data Transfer Protocol Layers:</b> Mapping out the precise methods used to move information across the web. I compared consumer-grade, web-based file sharing services with the technical, network-level operations of the File Transfer Protocol (FTP) using dedicated software clients like FileZilla and WinSCP.</li>
+        </ul>
+        <p>By studying these digital workflows, I have gained a solid understanding of cloud management and professional digital communication. The following subpages feature an interactive, comprehensive look at my technical notes, educational video integrations, and external learning resources.</p>
+
         <h3>The FTP Workflow</h3>
-        <p>For advanced web administration, professionals use File Transfer Protocol (FTP). Here is the clear sequence of an FTP operation:</p>
         <!-- Table WITHOUT Borders -->
         <table class="no-border-table">
             <tr>
@@ -81,18 +109,39 @@
                 <td><b>Step 3: Transfer Interchange</b></td>
                 <td>The user selects files and initiates an upload or download request. The client and server manage the data exchange.</td>
             </tr>
-            <tr>
-                <td><b>Step 4: Termination</b></td>
-                <td>Once the transfer is complete, the user securely logs out of the server connection.</td>
-            </tr>
         </table>
 
-        <!-- Module 3 -->
+        <h3>Module 2 Artifacts & Collaboration</h3>
+        <div class="img-container">
+            <img src="image_6.jpg" alt="Module 2 Overview infographic covering Enterprise & Webmail Infrastructure, Cloud Computing Paradigms, and Data Transfer Protocol Layers." class="module-img" width="300">
+            <p><i>Module 2 Overview: Cloud Productivity and Digital Communication Architectures — Webmail, Cloud Storage & FTP.</i></p>
+            
+            <img src="module2_quiz.jpg" alt="Screenshot of Module 2 Quiz Results" class="module-img" width="300">
+            <p><i>My results from the Module 2 Assessment Quiz.</i></p>
+            
+            <img src="module2_discussion.jpg" alt="Screenshot of Module 2 Discussion Forum" class="module-img" width="300">
+            <p><i>Screenshot of my peer mentorship in the Module 2 Discussion Forum.</i></p>
+        </div>
+
+        <hr>
+
+        <!-- ========================================== -->
+        <!-- MODULE 3 -->
+        <!-- ========================================== -->
         <h2 id="module3">Module 3: Social Media & Emerging Tech</h2>
-        <p>We categorized social media into distinct domains and investigated the technological trends shaping our future society, including machine learning, facial recognition, and virtual reality.</p>
-        
-        <!-- Table WITH Borders and Caption -->
+        <p>Welcome to the third core division of my course journey portfolio. Module 3 explores the shift from basic web workflows to highly interactive, collaborative social networks, modern physical-to-digital bridge technologies, and groundbreaking computing paradigms. Throughout this module, I analyzed how modern digital communication shapes consumer behavior, explored physical computing tags, evaluated future technological shifts, and studied the ethics of digital citizenship.</p>
+
+        <h3>The academic structure of this final module centers on four vital pillars:</h3>
+        <ul>
+            <li><b>Collaborative Social Paradigms:</b> Categorizing digital media into distinct domains including content communities, forums, blogs, podcasts, social networks, and wikis. I analyzed ownership structures, contrasting the author-centric layout of blogs against the decentralized, crowd-modifiable architecture of wikis.</li>
+            <li><b>Mobile Data & Proximity Interactions:</b> Examining the mechanics of two-dimensional pixelated barcodes and near-field systems. I compared standard QR codes against enhanced SnapTags, and investigated the wireless frequencies of Near Field Communication (NFC) powered by magnetic induction.</li>
+            <li><b>Emerging Computing Frontiers:</b> Investigating the technological trends shaping our future society. I evaluated how fields like machine learning, facial recognition, automation, virtual/augmented reality, and CRISPR genetic editing operate, the problems they solve, and their future career impacts.</li>
+            <li><b>Information Integrity & Digital Ethics:</b> Studying the severe responsibility that comes with global publishing access. I focused on evaluating online sources, recognizing trustworthy citations, respecting intellectual property rights, and committing to responsible digital behavior.</li>
+        </ul>
+        <p>The following subpages offer an in-depth archive of my analytical lecture notes, interactive multimedia elements, and educational resource integrations.</p>
+
         <h3>Social Media Typologies</h3>
+        <!-- Table WITH Borders and Caption -->
         <table class="bordered-table">
             <caption>Six Primary Types of Social Media Platforms</caption>
             <tr>
@@ -122,14 +171,66 @@
             </tr>
         </table>
 
-        <!-- Module 4 (Added so the Image Map link works) -->
+        <h3>Module 3 Artifacts & Collaboration</h3>
+        <div class="img-container">
+            <img src="image_7.jpg" alt="Module 3 Overview infographic covering Collaborative Social Paradigms, Mobile Data & Proximity Interactions, Emerging Frontiers, and Digital Ethics." class="module-img" width="300">
+            <p><i>Module 3 Overview: Social Media Ecosystems, Proximity Systems, and Emerging Frontiers — Social Platforms, NFC & AI.</i></p>
+            
+            <img src="module3_quiz.jpg" alt="Screenshot of Module 3 Quiz Results" class="module-img" width="300">
+            <p><i>My results from the Module 3 Assessment Quiz.</i></p>
+            
+            <img src="module3_discussion.jpg" alt="Screenshot of Module 3 Discussion Forum" class="module-img" width="300">
+            <p><i>Screenshot of my peer mentorship in the Module 3 Discussion Forum.</i></p>
+        </div>
+
+        <hr>
+
+        <!-- ========================================== -->
+        <!-- MODULE 4 -->
+        <!-- ========================================== -->
         <h2 id="module4">Module 4: HTML & CSS</h2>
-        <p>This final module taught me how to hand-code websites using Notepad and W3Schools tutorials. I learned about HTML tags, CSS styling, and ADA compliance.</p>
         
+        <h3>4.1 Introduction to HTML</h3>
+        <ul>
+            <li><b>Goal:</b> Understand how webpages are structured and transition from browsing the web to creating for end-users.</li>
+            <li><b>Core Skills:</b> Building a basic HTML page skeleton (head metadata vs. visible content), formatting text, creating lists, and adding links, images, and interactive elements. Understanding block-level vs. inline elements and how JavaScript and stylesheets connect to a site layout.</li>
+        </ul>
+
+        <h3>4.2 Tags, Elements, and Attributes</h3>
+        <ul>
+            <li><b>Goal:</b> Master the building blocks of HTML syntax.</li>
+            <li><b>Core Skills:</b> Distinguishing between tags (the angle-bracket markers), elements (the opening tag, content, and closing tag together), and attributes (extra properties inside opening tags, such as href or src). Recognizing and properly using self-closing (void) tags (like &lt;img&gt; or &lt;br&gt;) that do not wrap around text.</li>
+        </ul>
+
+        <h3>4.3 HTML Styles – CSS</h3>
+        <ul>
+            <li><b>Goal:</b> Learn how to control the visual design, colors, typography, and layout of HTML pages using Cascading Style Sheets (CSS).</li>
+            <li><b>Core Skills:</b> Connecting CSS to HTML and writing rules using CSS selectors. Applying colors, text styling, and understanding cascading, specificity, and inheritance. Controlling page layout and spacing through the CSS Box Model (margins, borders, padding, and element sizing).</li>
+        </ul>
+
+        <h3>4.4 Develop, Validate, and Publish</h3>
+        <ul>
+            <li><b>Goal:</b> Ensure your code follows professional web standards and get your finished website live on the internet.</li>
+            <li><b>Core Skills:</b> Checking your markup for errors using the W3C Validator. Understanding how domains, web hosting, DNS, and file uploads work to publish a site online.</li>
+        </ul>
+
+        <h3>Multimedia: HTML Basics</h3>
         <!-- Multimedia / Frame -->
         <p>Here is a great video explaining the basics of HTML that I used for this module:</p>
         <div style="text-align: center;">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/UB1O30fR-EE" title="HTML Tutorial" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <h3>Module 4 Artifacts & Collaboration</h3>
+        <div class="img-container">
+            <img src="image_8" alt="Module 4 Overview infographic covering Introduction to HTML, Tags, Elements & Attributes, HTML Styles (CSS), and Develop, Validate & Publish." class="module-img" width="300">
+            <p><i>Module 4 Overview: Web Development, HTML & CSS Architecture — Structure, Styling, Validation & Publishing.</i></p>
+            
+            <img src="module4_quiz.jpg" alt="Screenshot of Module 4 Quiz Results" class="module-img" width="300">
+            <p><i>My results from the Module 4 Assessment Quiz.</i></p>
+            
+            <img src="module4_discussion.jpg" alt="Screenshot of Module 4 Discussion Forum" class="module-img" width="300">
+            <p><i>Screenshot of my peer mentorship in the Module 4 Discussion Forum.</i></p>
         </div>
 
         <p style="text-align: center; margin-top: 20px;">
@@ -137,6 +238,7 @@
         </p>
     </div>
 
+    <!-- Footer -->
     <footer>
         <p>Created by Earlie Marsh for the Final Practical Assessment.</p>
         <p><a href="mailto:emarsh@stu.ctcd.edu?subject=Question%20about%20Coursework">Email Me</a></p>
