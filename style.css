@@ -1,30 +1,27 @@
 /* =========================================
-   Global Styles - Earlie Marsh Final Portfolio
+   Beginner Global Styles - Earlie Marsh Final Portfolio
    ========================================= */
 body {
-    background-color: #f4f9f9; /* Soft off-white for readability */
-    font-family: 'Inter', Arial, sans-serif; /* Body font */
-    color: #333333; /* High contrast dark grey text */
-    margin: 0; 
-    line-height: 1.6; /* Improves readability */
+    background-color: #f4f9f9;
+    font-family: 'Inter', Arial, sans-serif;
+    color: #333333;
+    margin: 20px; /* Simple margin around the whole page */
+    line-height: 1.6;
 }
 
-/* Wrapper to keep content away from edges */
+/* Simple white background for the text area */
 .container {
-    margin: 30px 40px;
     background-color: #ffffff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    border: 1px solid #cccccc; /* Simple border */
 }
 
-/* Headings - Playfair Display for a classic academic feel */
+/* Headings */
 h1 {
     font-family: 'Playfair Display', Georgia, serif;
     color: #1b2a49;
-    font-size: 42px;
+    font-size: 36px;
     text-align: center;
-    margin-bottom: 10px;
     border-bottom: 3px solid #008080;
     padding-bottom: 10px;
 }
@@ -32,33 +29,24 @@ h1 {
 h2 {
     font-family: 'Playfair Display', Georgia, serif;
     color: #008080;
-    font-size: 28px;
-    margin-top: 40px;
-    border-bottom: 1px solid #ccc;
+    font-size: 26px;
+    margin-top: 30px;
+    border-bottom: 1px solid #cccccc;
     padding-bottom: 5px;
 }
 
-h3 {
+h3, h4 {
     font-family: 'JetBrains Mono', "Courier New", monospace;
     color: #1b2a49;
-    font-size: 22px;
-    margin-top: 25px;
+    font-size: 20px;
 }
 
-h4 {
-    font-family: 'JetBrains Mono', "Courier New", monospace;
-    color: #008080;
-    font-size: 18px;
-}
-
-/* Navigation Bar */
+/* Navigation Menu (Simple block, no sticky) */
 .nav-bar {
     background-color: #1b2a49;
     padding: 15px;
     text-align: center;
-    position: sticky; /* Keeps nav visible at the top */
-    top: 0;
-    z-index: 100;
+    margin-bottom: 20px;
 }
 
 .nav-bar a {
@@ -71,21 +59,21 @@ h4 {
 }
 
 .nav-bar a:hover {
-    color: #00e6e6; /* High contrast hover effect */
+    color: #00e6e6;
     text-decoration: underline;
 }
 
 /* Tables */
 table {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     border-collapse: collapse;
 }
 
 /* Table with borders */
 .bordered-table, .bordered-table th, .bordered-table td {
     border: 2px solid #1b2a49;
-    padding: 12px;
+    padding: 10px;
 }
 
 .bordered-table th {
@@ -96,7 +84,7 @@ table {
 
 .bordered-table caption {
     font-family: 'Playfair Display', serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: #1b2a49;
     margin-bottom: 10px;
@@ -110,34 +98,31 @@ table {
 .no-border-table td {
     border: none;
     padding: 10px;
-    background-color: #f8f9fa;
 }
 
 /* Forms */
 .contact-form {
     background-color: #f4f9f9;
-    padding: 25px;
+    padding: 20px;
     border: 2px solid #008080;
-    border-radius: 8px;
     max-width: 600px;
     margin: 0 auto;
 }
 
 .contact-form input, .contact-form textarea, .contact-form select {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     font-family: 'Inter', sans-serif;
-    box-sizing: border-box; /* Ensures padding doesn't break width */
+    box-sizing: border-box;
 }
 
 .contact-form button {
     background-color: #008080;
     color: white;
-    padding: 12px 24px;
+    padding: 10px 20px;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
     font-size: 16px;
@@ -149,19 +134,17 @@ table {
 
 /* Highlight Boxes */
 .favorite-box {
-    background-color: #d4edda; /* Light green */
-    border-left: 6px solid #28a745;
-    padding: 20px;
+    background-color: #d4edda;
+    border-left: 5px solid #28a745;
+    padding: 15px;
     margin-bottom: 20px;
-    border-radius: 4px;
 }
 
 .least-favorite-box {
-    background-color: #f8d7da; /* Light red */
-    border-left: 6px solid #dc3545;
-    padding: 20px;
+    background-color: #f8d7da;
+    border-left: 5px solid #dc3545;
+    padding: 15px;
     margin-bottom: 20px;
-    border-radius: 4px;
 }
 
 /* Footer */
@@ -170,15 +153,9 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
-    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
 }
 
 footer a {
     color: #00e6e6;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
