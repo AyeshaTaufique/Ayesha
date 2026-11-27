@@ -9,11 +9,11 @@
     
     <!-- Internal CSS -->
     <style>
-        .map-instruction {
+        .intro-text {
+            font-size: 18px;
             text-align: center;
-            font-weight: bold;
-            color: #008080;
-            margin-bottom: 10px;
+            color: #555;
+            font-style: italic;
         }
     </style>
 </head>
@@ -31,18 +31,21 @@
 
         <hr>
 
-        <!-- Image Map (Requirement) -->
+        <!-- Image Map (Your Provided Code) -->
         <h2>Interactive Module Map</h2>
-        <p class="map-instruction">Click on different parts of the global network image below to jump to my module summaries!</p>
+        <p style="text-align: center; font-weight: bold; color: #008080;">Click a module to jump to it.</p>
+        
         <div style="text-align: center;">
-            <!-- Inline Style on image border -->
-            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop" alt="Global Network Infrastructure" usemap="#networkmap" width="600" style="border: 4px solid #008080; border-radius: 8px;">
-            
-            <!-- Map coordinates -->
-            <map name="networkmap">
-                <area shape="rect" coords="0,0,200,400" href="#module1" alt="Module 1: Internet Fundamentals">
-                <area shape="rect" coords="200,0,400,400" href="#module2" alt="Module 2: Cloud and FTP">
-                <area shape="rect" coords="400,0,600,400" href="#module3" alt="Module 3: Emerging Tech">
+            <!-- The image. usemap="#modules" connects it to the map below. -->
+            <!-- Make sure you save your image as course-map.jpg in the same folder! -->
+            <img src="image_4.jpg" width="800" height="240" alt="Course map: Modules 1 to 4" usemap="#modules">
+
+            <!-- The map. Each <area> is a clickable box: coords = left, top, right, bottom -->
+            <map name="modules">
+                <area shape="rect" coords="20,100,195,220"  href="#module1" alt="Module 1">
+                <area shape="rect" coords="215,100,390,220" href="#module2" alt="Module 2">
+                <area shape="rect" coords="410,100,585,220" href="#module3" alt="Module 3">
+                <area shape="rect" coords="605,100,780,220" href="#module4" alt="Module 4">
             </map>
         </div>
 
@@ -52,7 +55,6 @@
         <h2 id="module1">Module 1: Internet Fundamentals</h2>
         <p>This module challenged me to deconstruct the internet down to its physical and logical roots. I analyzed everything from the military origins of decentralized networking to the hardware pipelines that deliver data to consumer devices.</p>
         <h3>Core Concepts Learned:</h3>
-        <!-- Unordered List -->
         <ul>
             <li><b>Network Infrastructure:</b> Analyzing the technical differences between 32-bit IPv4 addressing and the modern 128-bit IPv6 framework.</li>
             <li><b>Digital Access:</b> Differentiating physical components (fiber optics, coaxial cables) from the application software layer (World Wide Web).</li>
@@ -65,7 +67,7 @@
         
         <h3>The FTP Workflow</h3>
         <p>For advanced web administration, professionals use File Transfer Protocol (FTP). Here is the clear sequence of an FTP operation:</p>
-        <!-- Table WITHOUT Borders (Requirement) -->
+        <!-- Table WITHOUT Borders -->
         <table class="no-border-table">
             <tr>
                 <td><b>Step 1: Authentication</b></td>
@@ -89,7 +91,7 @@
         <h2 id="module3">Module 3: Social Media & Emerging Tech</h2>
         <p>We categorized social media into distinct domains and investigated the technological trends shaping our future society, including machine learning, facial recognition, and virtual reality.</p>
         
-        <!-- Table WITH Borders and Caption (Requirement) -->
+        <!-- Table WITH Borders and Caption -->
         <h3>Social Media Typologies</h3>
         <table class="bordered-table">
             <caption>Six Primary Types of Social Media Platforms</caption>
@@ -120,17 +122,18 @@
             </tr>
         </table>
 
-        <h2>Module 4: HTML & CSS Implementation</h2>
+        <!-- Module 4 (Added so the Image Map link works) -->
+        <h2 id="module4">Module 4: HTML & CSS</h2>
         <p>This final module taught me how to hand-code websites using Notepad and W3Schools tutorials. I learned about HTML tags, CSS styling, and ADA compliance.</p>
         
-        <!-- Multimedia / Frame (Requirement) -->
+        <!-- Multimedia / Frame -->
         <p>Here is a great video explaining the basics of HTML that I used for this module:</p>
         <div style="text-align: center;">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/UB1O30fR-EE" title="HTML Tutorial" frameborder="0" allowfullscreen></iframe>
         </div>
 
         <p style="text-align: center; margin-top: 20px;">
-            <a href="#top">Back to Top</a>
+            <a href="#top">Back to Top</a> <!-- Target Link -->
         </p>
     </div>
 
