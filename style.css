@@ -1,15 +1,13 @@
-/* =========================================
-   Beginner Global Styles - Earlie Marsh Final Portfolio
-   ========================================= */
+
 body {
     background-color: #f4f9f9;
     font-family: 'Inter', Arial, sans-serif;
     color: #333333;
-    margin: 20px; /* Simple margin around the whole page */
+    margin: 20px;
     line-height: 1.6;
 }
 
-/* Simple white background for the text area */
+/* white background  */
 .container {
     background-color: #ffffff;
     padding: 20px;
@@ -41,7 +39,7 @@ h3, h4 {
     font-size: 20px;
 }
 
-/* Navigation Menu (Simple block, no sticky) */
+/* Navigation Menu */
 .nav-bar {
     background-color: #1b2a49;
     padding: 15px;
@@ -159,12 +157,12 @@ footer {
 footer a {
     color: #00e6e6;
 }
-/* Simple image styling for the modules */
+/* image styling  */
 .module-img {
     border: 2px solid #008080;
-    width: 100%;          /* Makes it fit the page */
-    max-width: 600px;     /* Stops it from getting too huge */
-    height: auto;         /* Keeps the image from stretching weirdly */
+    width: 100%;          
+    max-width: 600px;     
+    height: auto;         
     margin-bottom: 5px;
 }
 
@@ -173,7 +171,7 @@ footer a {
     margin-bottom: 30px;
 }
 
-/* Makes the caption text under the images look neat */
+/* Styling the caption text */
 .img-container p {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
