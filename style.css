@@ -162,12 +162,22 @@ footer a {
 /* Simple image styling for the modules */
 .module-img {
     border: 2px solid #008080;
-    max-width: 100%; /* Ensures the image doesn't overflow the screen */
-    height: auto;
-    margin-bottom: 10px;
+    width: 100%;          /* Makes it fit the page */
+    max-width: 600px;     /* Stops it from getting too huge */
+    height: auto;         /* Keeps the image from stretching weirdly */
+    margin-bottom: 5px;
 }
 
 .img-container {
     text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Makes the caption text under the images look neat */
+.img-container p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #555555;
+    margin-top: 5px;
     margin-bottom: 20px;
 }
